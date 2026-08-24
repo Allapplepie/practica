@@ -1,24 +1,47 @@
 :root{
     --color-marca:#D52941;
-    --color-blanco:#FFFFFF;
+    --color-fondoblanco:#FFFFFF;
     --color-fondo:#CEECEB;
+    --color-banner:#84EAE7; 
     --fuente-titulo: 'Carter One', cursive;
     --fuente-cuerpo: 'Lato', sans-serif;
 }
+
+body{
+    background-color: var(--color-fondo);
+ 
+
+    font-family:var(--fuente-cuerpo); 
+    text-align: justify;
+
+
+b{
+    color:var(--color-marca);
+    font-weight: 900 ;
+}
+
+h2{
+    font-family:var(--fuente-titulo);
+    color:var(--color-marca);
+    text-align:center;
+}
+}
+
  header{
     h1{font-family:var(--fuente-titulo);
      color:var(--color-marca);
      text-align:center;
-     background-color: var(--color-fondo);
-    }
-    p{font-family:var(--fuente-cuerpo);
-    }
-    b{color:var(--color-marca);
-    }
-    ;
+     background-color: var(--color-banner);
 
- }
- nav{font-family:var(--fuente-titulo);
-     color:var(--color-marca);
+    }
+    p{text-align:center;}
+}
 
- }
+ nav{
+    font-family:var(--fuente-titulo);
+     color:var(--color-marca);}
+
+.producto{
+    background-color: var(--color-fondoblanco);
+    font-family:var(--fuente-cuerpo);
+}
